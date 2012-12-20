@@ -1,0 +1,20 @@
+EXTRA_CFLAGS += -Iarch/arm/mach-msm
+obj-$(CONFIG_LGE_HEADSET_2GPIO) += lge_gpio_h2w.o
+obj-$(CONFIG_LGE_SWITCH_GPIO) += lge_gpio_switch.o
+
+obj-$(CONFIG_MACH_MSM7X27_SWIFT) += board-swift.o
+obj-$(CONFIG_MACH_MSM7X27_SWIFT) += board-swift-mmc.o
+obj-$(CONFIG_MACH_MSM7X27_SWIFT) += board-swift-snd.o
+obj-$(CONFIG_MACH_MSM7X27_SWIFT) += board-swift-panel.o
+obj-$(CONFIG_MACH_MSM7X27_SWIFT) += board-swift-bt.o
+obj-$(CONFIG_MACH_MSM7X27_SWIFT) += board-swift-camera.o
+obj-$(CONFIG_MACH_MSM7X27_SWIFT) += board-swift-input.o
+obj-$(CONFIG_MACH_MSM7X27_SWIFT) += board-swift-misc.o
+obj-$(CONFIG_MACH_MSM7X27_SWIFT) += board-swift-vibrator.o
+#obj-$(CONFIG_MACH_MSM7X27_SWIFT) += board-swift-headset.o
+obj-$(CONFIG_MACH_MSM7X27_SWIFT) += board-swift-amp.o
+obj-$(CONFIG_MACH_MSM7X27_SWIFT) += board-swift-amp-i2c.o
+obj-$(CONFIG_MACH_MSM7X27_SWIFT) += board-swift-ats.o
+obj-$(CONFIG_MACH_MSM7X27_SWIFT) += board-swift-calalgorithm.o
+
+obj-$(CONFIG_MACH_LGE) += devices_lge.o
